@@ -11,4 +11,11 @@ class SubATest {
         SubA a = new SubA();
         assertEquals(2,a.func());
     }
+
+    @Test
+    void TesttoString() {
+        SubA a = new SubA();
+
+        assertEquals("a",                 a.toString());
+    }
 }
